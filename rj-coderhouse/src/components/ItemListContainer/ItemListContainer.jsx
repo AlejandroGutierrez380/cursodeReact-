@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import CardWidget from '../CardWidget/CardWidget';
 import './ItemListContainer.css';
 
-const ItemListContainer = ({ greeting }) => {
+const ItemListContainer = (props) => {
   return (
     <section className="list-container">
       {/* Catálogo de productos */}
@@ -26,7 +26,7 @@ const ItemListContainer = ({ greeting }) => {
       <CardWidget />
 
       <div>
-        <h1>{greeting}</h1>
+        <h1>{props.greeting}</h1>
       </div>
     </section>
 
