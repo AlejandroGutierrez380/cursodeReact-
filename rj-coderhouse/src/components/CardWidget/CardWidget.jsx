@@ -1,4 +1,4 @@
-import cart from './assets/carrito-compras-desarrollo-tienda-virtual.png';
+import cart from '../../assets/carrito-compras-desarrollo-tienda-virtual.png'
 
 const CardWidget = () => {
   return (

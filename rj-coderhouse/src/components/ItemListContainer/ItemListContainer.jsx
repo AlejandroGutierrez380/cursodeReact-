@@ -1,4 +1,5 @@
 
+
 import PropTypes from 'prop-types';
 import CardWidget from '../CardWidget/CardWidget';
 import './ItemListContainer.css';
@@ -36,7 +37,7 @@ const ItemListContainer = (props) => {
   
 }
 
-ItemListContainer.PropTypes = {
+ItemListContainer.propTypes = {
 
     greeting: PropTypes.string.isRequired
     
