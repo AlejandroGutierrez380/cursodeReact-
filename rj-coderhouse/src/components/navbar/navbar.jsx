@@ -1,7 +1,7 @@
 
 import './Navbar.css' 
 
-
+import React from 'react'
 
 
 const Navbar = () => {

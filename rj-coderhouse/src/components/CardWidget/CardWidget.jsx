@@ -1,3 +1,5 @@
+
+import React from 'react'
 import cart from '../../assets/carrito-compras-desarrollo-tienda-virtual.png'
 
 const CardWidget = () => {
